@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.navbar {
+  margin: 40px auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  margin: 0% 10px;
+  padding: 0% 5px;
+  color: gray;
+  font-size: 20px;
+}
+
+.active {
+  color: rgb(182, 235, 253);
+  text-decoration: underline;
+}
+.countries-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0%;
+  justify-content: center;
+}
+.card {
+  height: 150px;
+  width: 300px;
+  box-shadow: 0 0 5px grey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 100px;
+  width: 150px;
+  margin: auto 0;
+  padding: 5px;
+}
+
+.card .data-container {
+  margin: auto 0;
+  font-size: 12px;
+}
+li,
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: gray;
+  margin: 10px;
+  border-radius: 10px;
+  height: 40px;
+  align-items: center;
+}
+
+.about {
+  margin: 0% 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
